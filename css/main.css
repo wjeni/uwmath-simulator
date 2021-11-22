@@ -4,18 +4,28 @@ body, html {
   
 .bg {
     /* The image used */
-    background-image: url("classroom.png");
+    background-image: url("../image/menu_bg.png");
   
     /* Full height */
-    height: 130%;
-
-
+    height: 100%;
+  
     /* Center and scale the image nicely */
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
- 
+.drag {
+    background-image: url("../image/book.png");
+  
+    /* Full height */
+    height: 70%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 h1 {
     font-family: JejuHallasan;
@@ -23,7 +33,7 @@ h1 {
     font-weight: normal;
     font-size: 65px;
     line-height: 65px;
-    color:rgb(19, 16, 16);
+    color: #809CFF;
 }
 
 .pullup {
@@ -37,3 +47,4 @@ h1 {
     /* Primary Color */
     color: #EDEDF5;
 }
+
