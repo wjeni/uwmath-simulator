@@ -16,24 +16,3 @@ body, html {
   }
 
  
-
-h1 {
-    font-family: JejuHallasan;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 65px;
-    line-height: 65px;
-    color:rgb(19, 16, 16);
-}
-
-.pullup {
-    font-family: Podkova;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 27px;
-    /* identical to box height */
-
-    /* Primary Color */
-    color: #EDEDF5;
-}
