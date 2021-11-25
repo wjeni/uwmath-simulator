@@ -15,3 +15,13 @@ body, html {
     background-repeat: no-repeat;
     background-size:contain;
   }
+
+#msg1 {
+  position: absolute;
+  top:81%;
+  left:65%;
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

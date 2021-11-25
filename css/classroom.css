@@ -17,4 +17,25 @@ body, html {
     background-size:contain;
   }
 
- 
+p {
+  position: absolute;
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#msg1 {
+  top: 93%;
+  left: 45%;
+  color:brown;
+}
+
+#msg2 {
+  letter-spacing: -0.3em;
+  text-orientation: upright;
+  writing-mode: vertical-rl;
+  top: 48%;
+  left: 16%;
+  color: brown;
+}
