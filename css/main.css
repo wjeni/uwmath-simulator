@@ -15,36 +15,24 @@ body, html {
     background-size: cover;
   }
 
-.drag {
-    background-image: url("../image/book.png");
-  
-    /* Full height */
-    height: 70%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.game-title {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 65px;
+  margin-left: 20px;
+  color: #809CFF;
 }
 
-h1 {
-    font-family: JejuHallasan;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 65px;
-    line-height: 65px;
-    color: #809CFF;
+.click-start {
+font-family: 'Saira Condensed', sans-serif;;
+font-style: normal;
+font-size: 40px;
+line-height: 27px;
+margin-left: 80px;
+/* identical to box height */
+
+/* Primary Color */
+color: #EDEDF5;
 }
-
-.pullup {
-    font-family: Podkova;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 27px;
-    /* identical to box height */
-
-    /* Primary Color */
-    color: #EDEDF5;
-}
-
