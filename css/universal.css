@@ -1,16 +1,17 @@
-.subviews{
+.subview_selection{
     position: absolute;
     background-color: #000;
     opacity: 30%;
-  }
-  
-  .arrow_selections{
+}
+
+.arrow_selections{
     height: 8%;
     width: 3%;
     opacity: 30%;
     background-color: #000;
     position: absolute;
-  }
-  .arrow_img{
+}
+
+.arrow_img{
     position: absolute;
     width: 10%;} 
