@@ -4,10 +4,12 @@
     opacity: 30%;
     cursor: pointer;
 }
+
 .subview_selection:hover {
     background-color: aqua;
 }
 
 .arrow_img{
     position: absolute;
-    width: 10%;} 
+    width: 10%;
+} 
