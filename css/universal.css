@@ -7,11 +7,6 @@
     background-color: aqua;
 }
 
-#back_arrow img:hover {
-    background-color: aquamarine;
-}
-
-
 .arrow_img{
     position: absolute;
     width: 10%;} 

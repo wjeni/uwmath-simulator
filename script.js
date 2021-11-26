@@ -1,4 +1,4 @@
-let myDiv = document.querySelector('div');
+let myDiv = document.getElementById('screen');
 
 function hide(id){
     return document.getElementById(id).style.visibility = "hidden";
@@ -12,18 +12,33 @@ function changebg(img){
     return myDiv.style.backgroundImage = img;
 }
 
-document.getElementById("L_subview1").addEventListener('click', () => {
-    changebg('url(image/left_s1_1.png)');
-    hide("right_arrow");
-    hide("msg1");
-    hide("L_subview1")
-    display("back_arrow");
-});
+function addEvent(element, evnt, funct){
+    if (element.attachEvent)
+     return element.attachEvent('on'+evnt, funct);
+    else
+     return element.addEventListener(evnt, funct, false);
+}
 
-document.getElementById("back_arrow").addEventListener('click', () => {
-    changebg('url(image/left_view.png)');
-    display("right_arrow");
-    display("msg1");
-    display("L_subview1")
-    hide("back_arrow");
-});
+addEvent(
+    document.getElementById('L_subview1'),
+    'click',
+    function(){
+        changebg('url(image/left_s1_1.png)');
+        hide("right_arrow");
+        hide("msg1");
+        hide("L_subview1")
+        display("back_arrow");
+    }
+);
+
+addEvent(
+    document.getElementById('back_arrow'),
+    'click',
+    function(){
+        changebg('url(image/left_view.png)');
+        display("right_arrow");
+        display("msg1");
+        display("L_subview1")
+        hide("back_arrow");
+    }
+);
