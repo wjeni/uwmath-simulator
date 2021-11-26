@@ -28,4 +28,6 @@ body, html {
 
 #back_arrow {
   visibility: hidden;
+  cursor: pointer;
+  transform: scale(0.3);
 }
