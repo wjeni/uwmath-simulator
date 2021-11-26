@@ -12,11 +12,14 @@ function changebg(img){
     return myDiv.style.backgroundImage = img;
 }
 
-function addEvent(element, evnt, funct){
+// Why changed code style? 
+//https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick
+
+function addEvent(element, event, funct){
     if (element.attachEvent)
-     return element.attachEvent('on'+evnt, funct);
+     return element.attachEvent('on'+event, funct);
     else
-     return element.addEventListener(evnt, funct, false);
+     return element.addEventListener(event, funct, false);
 }
 
 addEvent(
@@ -31,6 +34,9 @@ addEvent(
     }
 );
 
+
+// Try many different ways of coding in attempt to add an event to another element. All have failed
+// The function works if it is put in the html file using eventListener, however it strangely doesn't worke in the js file.
 addEvent(
     document.getElementById('back_arrow'),
     'click',
