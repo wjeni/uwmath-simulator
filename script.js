@@ -1,8 +1,16 @@
 
 let myDiv = document.querySelector('div');
 
+function hide(id){
+    return document.getElementById(id).style.visibility = "hidden";
+}
+
+function changebg(img){
+    return myDiv.style.backgroundImage = img;
+}
+
 myDiv.addEventListener('click', () => {
-    myDiv.style.backgroundImage = `url('image/left_s1_1.png')`;
-    document.getElementById("msg1").style.visibility = "hidden";
-    document.getElementById("link").style.visibility = "hidden";
+    changebg(`url(image/left_s1_1.png)`);
+    hide("link");
+    hide("msg1");
 });
