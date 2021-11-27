@@ -15,13 +15,13 @@ with some clickable and interactive gadgets.
 
 ### Members
 Mentor:
-- [Jaishree Balamurugan]
+- Jaishree Balamurugan
 
 Mentees:
-- [Emma Yan]
-- [Eddy Yang]
-- [Jennifer Wu]
-- [Zhuojun Xie]
+- Emma Yan
+- Eddy Yang
+- Jennifer Wu
+- Zhuojun Xie
 
 ## About the Project
 
