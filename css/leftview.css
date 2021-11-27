@@ -1,33 +1,40 @@
-body, html {
+body,
+html {
     margin: 0%;
     height: 100%;
-  }
-  
-#screen {
-    /* The image used */
-    background-image: url("../image/left_view.png");
-  
-    /* Full height */
-    height: 100%;
+}
 
-    /* Center and scale the image nicely */
+#screen {
+    background-image: url("../image/left_view.png");
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:contain;
-  }
+    background-size: contain;
+}
 
 #msg1 {
-  position: absolute;
-  top:81%;
-  left:65%;
-  color: aliceblue;
-  font-size: large;
-  font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 83%;
+    left: 63%;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#msg2 {
+    visibility: hidden;
+    position: absolute;
+    top: 60%;
+    left: 53%;
+    color: cornflowerblue;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #L_back_arrow {
-  visibility: hidden;
-  cursor: pointer;
-  transform: scale(0.3);
+    visibility: hidden;
+    cursor: pointer;
+    transform: scale(0.3);
 }

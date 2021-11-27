@@ -1,15 +1,11 @@
+/* classmate subviews*/
+
 .subview_selection {
     position: absolute;
-    background-color: #000;
-    opacity: 30%;
     cursor: pointer;
 }
 
-.subview_selection:hover {
-    background-color: aqua;
-}
-
-.arrow_img{
+.arrow_img {
     position: absolute;
     width: 10%;
-} 
+}

@@ -1,38 +1,38 @@
-body, html {
+body,
+html {
+    margin: 0%;
     height: 100%;
-  }
-  
+}
+
+
+/* How to remove the white space on top and bottom? */
+
 .bg {
     /* The image used */
     background-image: url("../image/menu_bg.png");
-  
     /* Full height */
     height: 100%;
-  
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.game-title {
-  font-family: 'Architects Daughter';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 65px;
-  line-height: 65px;
-  margin-left: 20px;
-  color: #809CFF;
+.sim-title {
+    font-family: 'Architects Daughter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 65px;
+    margin-left: 20px;
+    color: #809CFF;
 }
 
 .click-start {
-font-family: 'Saira Condensed', sans-serif;;
-font-style: normal;
-font-size: 40px;
-line-height: 27px;
-margin-left: 80px;
-/* identical to box height */
-
-/* Primary Color */
-color: #EDEDF5;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 27px;
+    margin-left: 80px;
+    color: #EDEDF5;
 }

@@ -4,19 +4,28 @@ html {
     height: 100%;
 }
 
-.bg {
-    background-image: url("../image/defaultView.png");
+#screen {
+    background-image: url("../image/board.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-
-/*Is this still useful?*/
-
-p {
+.boardview_selection {
     position: absolute;
+    cursor: pointer;
+}
+
+.boardview_selection:hover .msg1 {
+    visibility: visible;
+}
+
+.msg1 {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 65%;
     color: aliceblue;
     font-size: large;
     font-weight: bold;
