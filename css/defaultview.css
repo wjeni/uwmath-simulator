@@ -11,14 +11,3 @@ html {
     background-repeat: no-repeat;
     background-size: contain;
 }
-
-
-/*Is this still useful?*/
-
-p {
-    position: absolute;
-    color: aliceblue;
-    font-size: large;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}

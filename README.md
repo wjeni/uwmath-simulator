@@ -8,10 +8,8 @@ This is a project that is part of the F21 UWaterloo CSC x DSC Project Program!
 
 ## Overview
 
-A short description of your project! Highlight the problem/challenge and how you'll be approaching it.
-
 This is a website illustrating scenarios during a UW math lecture,
-with some clickable and interactive gadgets. 
+with clickable and interactive gadgets that we attempt to achieve through HTML and JavaScript. 
 
 ### Members
 Mentor:
@@ -27,5 +25,5 @@ Mentees:
 
 ...Specific details on the project. Add some pictures/videos too!
 
-Our project includes 4 html pages, namely class overview, left view, right view and board view. 
-We also added some JavaScript to manage the interactive elements. 
+Our project includes 4 html pages, namely classroom overview, left view, right view and board view. 
+We also incorporated interactive components using JavaScript. 
