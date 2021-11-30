@@ -23,10 +23,13 @@ Mentees:
 
 ## About the Project
 
-...Specific details on the project. Add some pictures/videos too!
-
-Our project includes 4 html pages, namely classroom front view, left view, right view and board view. 
+Our project includes 4 html pages, namely classroom front view, left view, right view and board view.  
 We also incorporated interactive components using JavaScript. 
 
-[Preview of front view]
-(previews/front.png)
+Front: contains links to the left, right and board views  
+Left: a classmate sitting to the left  
+Right: an interactive classmate sitting to the right  
+Board: a filtered real-life photo of a math lecture blackboard with an interactive comment
+
+Below is a preview of the front view:
+![Preview of front view](previews/front.png?raw=true "front")
