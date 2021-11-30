@@ -25,5 +25,8 @@ Mentees:
 
 ...Specific details on the project. Add some pictures/videos too!
 
-Our project includes 4 html pages, namely classroom overview, left view, right view and board view. 
+Our project includes 4 html pages, namely classroom front view, left view, right view and board view. 
 We also incorporated interactive components using JavaScript. 
+
+[Preview of front view]
+(previews/front.png)

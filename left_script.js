@@ -23,7 +23,7 @@ addEvent(
     document.getElementById('L_subview1'),
     'click',
     function() {
-        changebg('url(image/left_s1_1.png)');
+        changebg('url(images/left_s1_1.png)');
         hide("right_arrow");
         hide("msg1");
         hide("L_subview1")
@@ -36,7 +36,7 @@ addEvent(
     document.getElementById('L_back_arrow'),
     'click',
     function() {
-        changebg('url(image/left_view.png)');
+        changebg('url(images/left_view.png)');
         display("right_arrow");
         display("msg1");
         display("L_subview1")
