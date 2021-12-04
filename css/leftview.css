@@ -21,20 +21,3 @@ html {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-#msg2 {
-    visibility: hidden;
-    position: absolute;
-    top: 60%;
-    left: 53%;
-    color: cornflowerblue;
-    font-size: large;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#L_back_arrow {
-    visibility: hidden;
-    cursor: pointer;
-    transform: scale(0.3);
-}
